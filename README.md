@@ -103,7 +103,7 @@ This learning path is designed to be a ~1 week intensive deep dive on web3. This
 - 4hrs: Follow the NFT Pet Store example [https://nftschool.dev/tutorial/flow-nft-marketplace/#prerequisites](https://nftschool.dev/tutorial/flow-nft-marketplace/#prerequisites)
     - **Goal**: learn how Smart Contracts and Flow are integrated into a fully working Dapp
     - Mission: Try to modify the core contracts to introduce the concept of Royalties (or any other custom feature you want). Stick with it! Reach out if you get stuck.
-- 4-6hrs: Follow the Kitty Items tutorial.
+- 4-6hrs: Follow the Kitty Items tutorial: https://github.com/onflow/kitty-items
     - **Goal**: understand how a fully functioning NFT Marketplace is built
     - Mission: get familiar with the code.
 - 4-5hrs: Dive into the best contracts: https://github.com/muttoni/gold-star-contracts
