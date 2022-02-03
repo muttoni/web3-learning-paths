@@ -2,6 +2,12 @@
 
 **Context:** this  outlines 3 (non-mutually exclusive) learning paths, that cater to different time investments developers curious about Flow/Web3 may have at their disposal: 1 hour, 1 day, 1 week. The goal of these learning paths is to provide the maximum amount of value for the minimum amount of time, to get you building on testnet as quickly as possible, without sacrificing basic foundational knowledge. 
 
+Choose your time investment:
+- [1 hour: “The Lunch break”](https://github.com/muttoni/web3-learning-paths/#1-hour---the-lunch-break-)
+- [1 day: “The Weekend Project”](https://github.com/muttoni/web3-learning-paths/#1-day---the-weekend-project-)
+- [1 week: “The Deep Dive”](https://github.com/muttoni/web3-learning-paths/#1-week---the-deep-dive-)
+
+
 # 1 hour: “The Lunch break”
 
 This learning path is designed to be a fast track for developers curious about web3 and Flow. In 1 hour you will understand how Flow works, its novel approach to address Ethereum’s shortcomings, how to write Smart Contracts and create a bare bones web3 app that communicates with the Flow testnet blockchain.
