@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Learn Web3 in 1 hour, 1 day or 1 week" />
+    <link rel="icon" href="https://assets.website-files.com/5f6294c0c7a8cdd643b1c820/5f6294c0c7a8cd5e06b1c938_Asset%201%405x.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%svelte.head%
+	</head>
+	<body>
+		<div>%svelte.body%</div>
+    <script>
+      /*!
+      * Minimal theme switcher
+      *
+      * Pico.css - https://picocss.com
+      * Copyright 2020 - Licensed under MIT
+      */
+
+      const themeSwitcher = {
+        // Config
+        buttonsTarget: "a[data-theme-switcher]",
+        buttonAttribute: "data-theme-switcher",
+        rootAttribute: "data-theme",
+
+        // Init
+        init() {
+          document.querySelectorAll(this.buttonsTarget).forEach(
+            function (button) {
+              button.addEventListener(
+                "click",
+                function (event) {
+                  event.preventDefault();
+                  document
+                    .querySelector("html")
+                    .setAttribute(
+                      this.rootAttribute,
+                      event.target.getAttribute(this.buttonAttribute)
+                    );
+                }.bind(this),
+                false
+              );
+            }.bind(this)
+          );
+        },
+      };
+
+      // Init
+      themeSwitcher.init();
+    </script>
+	</body>
+</html>
