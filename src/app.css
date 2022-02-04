@@ -25,6 +25,8 @@
     --primary-hover: #00ce78;
     --primary-focus: transparent;
     --primary-inverse: #FFF;
+    --card-border-color: var(--form-element-border-color);
+    
   }
 }
 
@@ -35,6 +37,7 @@
   --primary-hover: #00ce78;
   --primary-focus: transparent;
   --primary-inverse: #FFF;
+  --card-border-color: var(--form-element-border-color);
 }
 
 /* Green (Common styles) */
