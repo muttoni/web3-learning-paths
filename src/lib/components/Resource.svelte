@@ -55,6 +55,10 @@
 
   }
 
+  .description {
+    line-height: 1.25;
+  }
+
   .info {
     padding-right: 20px;
     text-align: left;
@@ -94,14 +98,15 @@
       </span>
     </div>
 
-    <code class="duration"><small>{formatDuration(resource.duration)}</small></code>
+    <code class="duration"><ContentType type={resource.contentType}></ContentType><small>{formatDuration(resource.duration)}</small></code>
 
   </summary>
 
   <!-- Main Content -->
   <div class="content">
     <h3>{resource.name}</h3>
-    <p class="m-0 description">{resource.description}<br/><Author>{resource.author}</Author> </p>
+    <p class="m-0 description">{resource.description}</p>
+    <p class="m-0 mt-1"><Author>{resource.author}</Author></p>
     <p class="m-0 mt-1 flex-inline">{#each resource.tags as tag}<Tag>{tag}</Tag>{/each}</p>
     <Goal>{resource.goal}</Goal>
     <div class="tags">
@@ -112,6 +117,7 @@
     <!-- ACTIONS -->
     <div class="flex">
       {#if !resource.completed}
+      
       <a role="button" class="outline contrast me-1" target="_blank" href="{resource.src}">Start</a>
       {/if}
       <a role="button" href="/" 

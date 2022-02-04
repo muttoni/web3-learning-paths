@@ -115,6 +115,10 @@ h1, h2, gh3 {
   margin-top: 1em;
 }
 
+.lh-1 {
+  line-height:1;
+}
+
 .accent-border {
   border: 1px solid var(--primary);
 }
@@ -134,6 +138,7 @@ h1, h2, gh3 {
 .flex-inline {
   display:inline-flex;
   flex-wrap:wrap;
+  align-items:center;
 }
 
 /* Header */
