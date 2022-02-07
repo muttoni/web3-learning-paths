@@ -17,7 +17,7 @@
     
   }
 
-  trophy.active {
+  .trophy.active {
     opacity: 1;
     filter: grayscale(0);
   }

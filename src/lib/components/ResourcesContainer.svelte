@@ -21,7 +21,7 @@
 <input type="search" id="search" name="search" placeholder="Search" bind:value={filterText}>
 
 {#each $resources as resource, index}
-  {#if resource.importance <= $selectedLearningImportance && filter(resource, filterText)}
+  {#if resource?.importance <= $selectedLearningImportance && filter(resource, filterText)}
   <div in:slide|local out:slide|local>
     <!-- <Resource {resource} active={resource.importance <= $selectedLearningImportance} /> -->
     <Resource bind:resource={resource} />

@@ -16,14 +16,14 @@ export const calculateProgress = function(resources) {
 
   for (let i = 0; i < resources.length; i++) {
     const resource = resources[i];
-    let completed = resource.completed;
+    let completed = resource?.completed;
 
-    if(resource.importance === 0) {
+    if(resource?.importance === 0) {
       totalEssential += 1;
       completedEssential += completed ? 1 : 0;
     }
 
-    if(resource.importance === 1) {
+    if(resource?.importance === 1) {
       totalRecommended += 1;
       completedRecommended += completed ? 1 : 0;
     }
@@ -58,7 +58,7 @@ export const formatDuration = function(mins) {
 
 export function mergeArrayObjects(arr1,arr2){
   return arr1.map((item,i)=>{
-     if(item.name === arr2[i].name){
+     if(item?.name === arr2[i]?.name){
          //merging two objects
        return Object.assign({},item,arr2[i])
      }

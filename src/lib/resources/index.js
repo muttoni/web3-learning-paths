@@ -16,10 +16,24 @@
 
 export default [
   
+  // Blockchain Basics
+  {
+    name: "Learn about Blockchain",
+    description: "Get a foundational understanding of Blockchain, Smart contracts and transactions.",
+    author: "Jacob Tucker",
+    goal: "Understand Blockchain",
+    learningType: "foundational",
+    contentType: ["article"],
+    tags: ["foundational", "basics"],
+    duration: 15,
+    importance: 0,
+    src: "https://github.com/jacob-tucker/Flow-Zero-to-Jacob/tree/main/chapter1/day1"
+  },
+
   // Flow Technical Primer
   {
-    name: "Flow Technical Primer",
-    description: "Get a foundational understanding of how Flow works.",
+    name: "Understand the anatomy of a Flow Web3 App",
+    description: "Get a foundational understanding of how building a Web3 App on Flow works.",
     author: "Flow Core Contributors",
     goal: "Understand Flow",
     learningType: "foundational",
@@ -27,7 +41,7 @@ export default [
     tags: ["foundational", "why flow"],
     duration: 15,
     importance: 0,
-    src: "https://www.onflow.org/primer"
+    src: "https://docs.onflow.org/dapp-development/flow-dapp-anatomy/"
   },
   
   // Intro to Flow on YouTube
@@ -62,7 +76,7 @@ export default [
   
   // Cadence Playground Tutorials
   {
-    name: "Flow Playground",
+    name: "Experiment on the Flow Playground",
     description: "Give Cadence a try yourself by going to the Flow Playground and going through the tutorials. Recommended first ones are 'Hello World' and minting Fungible and Non-Fungible Tokens",
     author: "Flow Core Contributors",
     goal: "Learn how to write Cadence",
@@ -85,7 +99,7 @@ export default [
     tags: ["fcl", "flow cli", "web3", "dapp", "frontend", "local development"],
     duration: 15,
     src: "https://docs.onflow.org/flow-cli/install/",
-    importance: 0
+    importance: 1
   },
   
   // FCL Quickstart
@@ -98,6 +112,22 @@ export default [
     contentType: ["code"],
     tags: ["fcl", "web3", "dapp", "frontend"],
     duration: 20,
+    importance: 1
+  },
+
+  // NFT Pet Store
+  {
+    name: "Build an NFT Pet Store",
+    description: "This tutorial focuses on building up a basic understanding of smart contract and NFTs. You are expected to bring a working JavaScript and basic React.js (opens new window)skills to the table, but a passing familiarity with blockchains, web3, and NFTs will be just fine if you are happy to catch up.",
+    tips: "Try to modify the core contracts to introduce the concept of Royalties (or any other custom feature you want). Stick with it! Reach out if you get stuck.",
+    author: "NFT School",
+    authorUrl: "https://nftschool.dev/",
+    goal: "Learn the basics of an NFT dapp",
+    learningType: "tutorial",
+    contentType: ["code", "article"],
+    tags: ["fcl", "cadence", "nft", "web3", "dapp", "frontend"],
+    duration: 60,
+    src: "https://nftschool.dev/tutorial/flow-nft-marketplace/#prerequisites",
     importance: 0
   },
   
@@ -116,6 +146,7 @@ export default [
     src: "https://www.youtube.com/watch?v=iVevnipJbHo&list=PLvcQxi9WyGdF32YuZABVTx-t3-FsBNCN2"
   },
   
+
   // Flow Zero to Jacob Course
   {
     name: "Flow Zero-to-Jacob Github Course",
@@ -144,24 +175,9 @@ export default [
     src: "https://www.cryptodappy.com",
     importance: 1
   },
-
   
-  // NFT Pet Store
-  {
-    name: "NFT Pet Store Example",
-    description: "This tutorial focuses on building up a basic understanding of smart contract and NFTs. You are expected to bring a working JavaScript and basic React.js (opens new window)skills to the table, but a passing familiarity with blockchains, web3, and NFTs will be just fine if you are happy to catch up.",
-    tips: "Try to modify the core contracts to introduce the concept of Royalties (or any other custom feature you want). Stick with it! Reach out if you get stuck.",
-    author: "NFT School",
-    authorUrl: "https://nftschool.dev/",
-    goal: "Learn the basics of an NFT dapp",
-    learningType: "tutorial",
-    contentType: ["code", "article"],
-    tags: ["fcl", "cadence", "nft", "web3", "dapp", "frontend"],
-    duration: 200,
-    src: "https://nftschool.dev/tutorial/flow-nft-marketplace/#prerequisites",
-    importance: 1
-  },    
-
+  
+  
   // Kitty Items
   {
     name: "Kitty Items",
@@ -176,8 +192,8 @@ export default [
     src: "https://github.com/onflow/kitty-items",
     importance: 2
   },  
-
-
+  
+  
   // Gold Star Contracts
   {
     name: "Gold Star Contracts",
