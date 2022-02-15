@@ -222,7 +222,7 @@ export default [
   }, 
   // Joshua Hannan's Medium Profile
   {
-    name: "oshua Hannan's Medium Profile",
+    name: "Joshua Hannan's Medium Profile",
     description: "A great resource for best practices, provided by one of the foremost Cadence developers!",
     author: "Joshua Hannan",
     goal: "Cover a broad range of topics that you will need to know in order to become a next-level Cadence developer!",
