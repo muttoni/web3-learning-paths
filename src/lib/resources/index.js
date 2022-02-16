@@ -207,4 +207,30 @@ export default [
     src: "https://github.com/muttoni/gold-star-contracts",
     importance: 2
   }, 
+  // Decentology Bootcamp
+  {
+    name: "Decentology Bootcamp",
+    description: "An introductory crash course to blockchain, Flow and Cadence.",
+    author: "Decentology Team",
+    goal: "Gain an understanding of blockchain, Flow and Cadence, then use your knowledge to complete challenges!",
+    learningType: "tutorial",
+    contentType: ["code", "video",],
+    tags: ["fcl", "contracts", "cadence", "web3", "dapp"],
+    duration: 600,
+    src: "https://github.com/decentology/fast-floward-1",
+    importance: 2
+  }, 
+  // Joshua Hannan's Medium Profile
+  {
+    name: "Joshua Hannan's Medium Profile",
+    description: "A great resource for best practices, provided by one of the foremost Cadence developers!",
+    author: "Joshua Hannan",
+    goal: "Cover a broad range of topics that you will need to know in order to become a next-level Cadence developer!",
+    learningType: "blog",
+    contentType: ["code", "article",],
+    tags: ["contracts", "cadence", "web3", "dapp"],
+    duration: 120,
+    src: "https://joshuahannan.medium.com/",
+    importance: 2
+  }, 
 ]
