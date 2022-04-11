@@ -27,7 +27,7 @@ export default [
     tags: ["foundational", "basics"],
     duration: 15,
     importance: 0,
-    src: "https://github.com/jacob-tucker/Flow-Zero-to-Jacob/tree/main/chapter1/day1"
+    src: "https://github.com/jacob-tucker/Flow-Zero-to-Jacob/tree/main/chapter1.0/day1"
   },
 
   // Flow Technical Primer
