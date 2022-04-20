@@ -30,10 +30,9 @@
     
     <footer>
       {#if $resourcesProgress >= 1}
-      <a href="/">Congrats! Click here to claim your exclusive Web3 NFT!</a>
+      <a href="https://floats.city/andrea.find/event/198642442">Congrats! Click here to claim your exclusive NFT!</a>
       {:else}
-      Complete 100% of the learning roadmap to qualify for an exclusive NFT!
+      Complete 100% of the learning roadmap to get your exclusive FLOAT (proof-of-participation NFT)!
       {/if}
-      
     </footer>
   </article>
