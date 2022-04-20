@@ -28,11 +28,14 @@
   <Trophy type="recommended" active={$completedRecommended}/>
   <Trophy type="all" name="Finisher" active={$resourcesProgress >= 1} />
     
-    <footer>
+    <footer style="text-align:center;">
       {#if $resourcesProgress >= 1}
-      <a href="https://floats.city/andrea.find/event/198642442">Congrats! Click here to claim your exclusive NFT!</a>
+      <a href="https://floats.city/andrea.find/event/198642442">
+        <img src="/qrcode.png" style="width:200px; height:auto;" /><br/><br/>
+        Congrats! Click here to claim your exclusive NFT!
+      </a>
       {:else}
-      Complete 100% of the learning roadmap to get your exclusive FLOAT (proof-of-participation NFT)!
+      Complete the roadmap to get your exclusive proof-of-participation NFT!
       {/if}
     </footer>
   </article>
